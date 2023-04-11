@@ -35,6 +35,6 @@ If you see ErrorLog.txt file generated instead, please raise a bug and attach th
 
     Being very honest about it, in its current state its extremely easy to wrap malware around it. Don't risk by downloading from unknown sources. Also always scan with antivirus before running to be safe.
 2. Do not redistribute. Download only from the releases on repo.
-3. No liability with the author. Run at your own risk. Author shall bear no responsibility for any damages or issues.
+3. No liability with the author. Run at your own risk. Author shall bear no responsibility for any damages or losses.
 4. No warranty.
 5. No modifications permitted.
