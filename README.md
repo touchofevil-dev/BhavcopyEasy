@@ -4,13 +4,13 @@ This tool does not download data.
  
 ## FAQ  
 
-#### How to use this?
+### How to use this?
 
-###### Prerequisites
+#### Prerequisites
 This application requires Dotnet 6 or above. Please download the dotnet framework runtime from [Microsoft Website](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) if you don't have it.
 You only need .Net runtime (win x64 or win x86 according to your machine).
 
-###### Steps
+#### Steps
 1. Download data files to a folder. Do not store in C:. If you only have C:, then create a folder in Desktop and put everything there.
 2. Download released zip file and extract the contents to same folder as above.
 3. Edit batch file using notepad, and update below fields carefully.
@@ -30,11 +30,11 @@ You only need .Net runtime (win x64 or win x86 according to your machine).
 If everything is successful, it should create a .txt file in same folder.
 If you see ErrorLog.txt file generated instead, please raise a bug and attach that file to bug.
 
-#### Notes
+### Notes
 1. Only download from official releases from the repo -
 
     Being very honest about it, in its current state its extremely easy to wrap malware around it. Don't risk by downloading from unknown sources. Also always scan with antivirus before running to be safe.
 2. Do not redistribute. Download only from the releases on repo.
 3. No liability with the author. Run at your own risk. Author shall bear no responsibility for any damages or issues.
-4. No warranty. Use as is.
+4. No warranty.
 5. No modifications permitted.
