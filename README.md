@@ -4,17 +4,27 @@ This tool does not download data.
  
 ## FAQ  
 
-#### How to Install?
+### Usage
+![App Screenshot](https://github.com/touchofevil-dev/BhavcopyEasy/blob/master/Images/BhavcopyEasy-Image.jpg)
+
+1. Select date for which you want to generate data.
+2. Select folder in which you've both the data files (i.e. cash market and index).
+3. Select folder in which you'd like to generate the file.
+4. Click on Generate file.
+5. If it works, it will open the folder with data.
+6. If you get any error, it would show on screen and generate an ErrorLog file. You can use the ErrorLog.txt file to raise an issue on this repo.
+
+
+### How to Install?
 
 #### Prerequisites
 This application requires Dotnet 6 or above. Please download the dotnet framework runtime from [Microsoft Website](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) if you don't have it.
 You only need .Net runtime (win x64 or win x86 according to your machine).
 
-
 ### Installation
 Download the .msix file from Releases and install. Fairly straight forward.
 
-### If Installation button is disabled
+#### If Installation button is disabled
 If the Install button is disabled, check the steps below to resolve the error.
 1. Right click on the .msix file.
 2. Select digital signatures tab.
@@ -30,7 +40,7 @@ If the Install button is disabled, check the steps below to resolve the error.
 
 [Refere to Microsoft guideline](https://learn.microsoft.com/en-us/dotnet/maui/windows/deployment/publish-cli#installing-the-app) if needed.
 
-#### (v0.1.1-alpha) -
+#### Older console versions -
 1. Download data files to a folder. No need to extract the zip any longer. Preferably do not download in C:\\. If you only have C:, then create a folder on Desktop and put everything there.
 2. Download released zip file and extract the contents to same folder as above.
 3. Edit batch file using notepad, and update below fields carefully.
@@ -49,17 +59,6 @@ If the Install button is disabled, check the steps below to resolve the error.
 
 If everything is successful, it should create a .txt file in same folder.
 If you see ErrorLog.txt file generated instead, please raise a bug and attach that file to bug.
-
-### Usage
-## Using v1.0.0
-![App Screenshot](https://github.com/touchofevil-dev/BhavcopyEasy/blob/master/Images/BhavcopyEasy-Image.jpg)
-
-1. Select date for which you want to generate data.
-2. Select folder in which you've both the data files (i.e. cash market and index).
-3. Select folder in which you'd like to generate the file.
-4. Click on Generate file.
-5. If it works, it will open the folder with data.
-6. If you get any error, it would show on screen and generate an ErrorLog file. You can use the ErrorLog.txt file to raise an issue on this repo.
 
 
 ### Notes
