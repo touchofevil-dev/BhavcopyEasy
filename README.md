@@ -7,7 +7,7 @@ This tool does not download data.
 ### Usage
 ![App Screenshot](https://github.com/touchofevil-dev/BhavcopyEasy/blob/master/Images/BhavcopyEasy-Image.jpg)
 
-1. Select date for which you want to generate data.
+1. Select date range for which you want to generate data.
 2. Select folder in which you've both the data files (i.e. cash market and index).
 3. Select folder in which you'd like to generate the file.
 4. Click on Generate file.
