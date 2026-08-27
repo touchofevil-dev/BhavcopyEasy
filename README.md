@@ -23,25 +23,8 @@ This application requires Dotnet 8 or above. Please download the dotnet framewor
 You only need .Net runtime (win x64 or win x86 according to your machine).
 
 ### Installation
-Download the .msix file from Releases and install. Fairly straight forward.
+Click the button below to get **BhavcopyEasy** from the Microsoft Store:
 
-#### If Installation button is disabled
-If the Install button is disabled, check the steps below to resolve the error.
-1. Right click on the .msix file.
-2. Select digital signatures tab.
-3. Select signer with name touchofevil and click on Details
-4. Click on View Certificate.
-5. Click on Install Certificate.
-6. Select Local Machine and click next. Provide admin permission, if needed.
-7. Select Place certificate in following store and click on browse.
-8. Scroll down and select 'Trusted People' and click Ok.
-9. Click next and click on Finish.
-10. You should get successful import dialog. Click on ok and close open windows if any.
-11. Rerun the installer.
-
-### Notes
-1. Only download from official releases from the repo.
-2. Do not redistribute. Download only from the releases on repo.
-3. No liability with the author. Run at your own risk. Author shall bear no responsibility for any damages or losses.
-4. No warranty.
-5. No modifications permitted.   
+<a href="https://apps.microsoft.com/detail/9n466rlnkrjb?referrer=appbadge&mode=full" target="_blank"  rel="noopener noreferrer">
+	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
+</a>
